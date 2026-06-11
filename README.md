@@ -1,4 +1,12 @@
-# mini-rtos
+<div align="center">
+
+<a href="https://kncn23.github.io/#projects"><img src="assets/banner.svg" alt="mini-rtos — cooperative and preemptive AArch64 RTOS with context switching, semaphores, on QEMU virt" width="100%"></a>
+
+[![Top language](https://img.shields.io/github/languages/top/KNCn23/mini-rtos?style=flat-square&labelColor=0a0e14&color=58e6d9)](https://github.com/KNCn23/mini-rtos)
+![Target](https://img.shields.io/badge/target-QEMU%20virt%20%C2%B7%20AArch64-7c8cff?style=flat-square&labelColor=0a0e14)
+[![Portfolio](https://img.shields.io/badge/portfolio-kncn23.github.io-58e6d9?style=flat-square&labelColor=0a0e14)](https://kncn23.github.io)
+
+</div>
 
 A small AArch64 real-time operating system built on top of the [mini-arm-os](https://github.com/KNCn23/mini-arm-os) foundation. Adds **task switching, schedulers, and synchronization primitives** — the missing pieces between a bare-metal kernel and a usable embedded runtime.
 
